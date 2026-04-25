@@ -10,16 +10,18 @@ A Linux VM was deployed inside a custom Virtual Network and configured with a Ne
 
 ## 🏗️ Architecture
 Internet
-↓
-Public IP Address
-↓
-Network Security Group (NSG)
-↓
-Ubuntu Linux Virtual Machine
-↓
-NGINX Web Server
-↓
-Virtual Network (VNet) + Subnet
+   ↓
+Azure Public IP
+   ↓
+NSG (Firewall Rules: 22, 80) (NSG is associated with the VM’s network interface and controls inbound/outbound traffic rules.)
+   ↓
+NIC (Network Interface Card)
+   ↓
+Linux VM (Ubuntu 24.04)
+   ↓
+NGINX Web Server (Port 80)
+   ↓
+VNet + Subnet (Network Boundary)
 
 
 ---
