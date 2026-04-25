@@ -67,3 +67,58 @@ Virtual Network (VNet) + Subnet
 
 The web server is accessible via public IP: 128.251.225.54 
 Deployed on Azure VM accessible via public IP over HTTP (port 80)
+
+
+---
+
+## 📸 Screenshots
+
+### VM Overview
+![VM Overview](screenshots/vm-overview.png)
+
+### Network Security Group Rules
+![NSG Rules](screenshots/nsg-rules.png)
+
+### SSH Connection
+![SSH Connection](screenshots/ssh-login1.png)
+![SSH Connection](screenshots/ssh-login2.png)
+
+### Live Website
+![NGINX Web Page](screenshots/nginx-site.png)
+
+---
+
+## 🧠 What I Learned
+
+- Azure cloud infrastructure deployment
+- Virtual networking (VNet, subnetting)
+- Network security configuration (NSG rules)
+- Linux server management
+- SSH key authentication
+- Web server deployment using NGINX
+- Basic cloud architecture design
+
+---
+
+## 🔐 Security Concepts Demonstrated
+
+- Network segmentation using VNets
+- Firewall rules using NSGs
+- Controlled inbound traffic (SSH + HTTP only)
+- Key-based authentication instead of passwords
+
+---
+
+## 📈 Future Improvements
+
+- Automate deployment using Terraform or Bicep
+- Add CI/CD pipeline for web deployment
+- Implement monitoring using Azure Monitor
+- Introduce Load Balancer for scalability
+- Add custom domain + HTTPS (SSL)
+
+---
+
+## 👨‍💻 Author
+
+Built as part of a cloud engineering learning path focusing on Azure infrastructure, networking, and DevOps fundamentals.
