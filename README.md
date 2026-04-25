@@ -9,8 +9,13 @@ A Linux VM was deployed inside a custom Virtual Network and configured with a Ne
 ---
 
 ## 🏗️ Architecture
+
 Internet
+
+
    ↓
+
+   
 Azure Public IP
    ↓
 NSG (Firewall Rules: 22, 80) (NSG is associated with the VM’s network interface and controls inbound/outbound traffic rules.)
